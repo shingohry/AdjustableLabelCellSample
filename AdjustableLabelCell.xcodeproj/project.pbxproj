@@ -22,6 +22,7 @@
 		C95FDC5B1913911F0080030E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95FDC3A1913911F0080030E /* UIKit.framework */; };
 		C95FDC631913911F0080030E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C95FDC611913911F0080030E /* InfoPlist.strings */; };
 		C95FDC651913911F0080030E /* AdjustableLabelCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FDC641913911F0080030E /* AdjustableLabelCellTests.m */; };
+		C95FDC70191391AB0080030E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C95FDC6F191391AB0080030E /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		C95FDC601913911F0080030E /* AdjustableLabelCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdjustableLabelCellTests-Info.plist"; sourceTree = "<group>"; };
 		C95FDC621913911F0080030E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95FDC641913911F0080030E /* AdjustableLabelCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustableLabelCellTests.m; sourceTree = "<group>"; };
+		C95FDC6E191391AB0080030E /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C95FDC6F191391AB0080030E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				C95FDC4F1913911F0080030E /* DetailViewController.m */,
 				C95FDC511913911F0080030E /* Images.xcassets */,
 				C95FDC3D1913911F0080030E /* Supporting Files */,
+				C95FDC6E191391AB0080030E /* CustomCell.h */,
+				C95FDC6F191391AB0080030E /* CustomCell.m */,
 			);
 			path = AdjustableLabelCell;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				C95FDC4D1913911F0080030E /* MasterViewController.m in Sources */,
 				C95FDC431913911F0080030E /* main.m in Sources */,
 				C95FDC501913911F0080030E /* DetailViewController.m in Sources */,
+				C95FDC70191391AB0080030E /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
